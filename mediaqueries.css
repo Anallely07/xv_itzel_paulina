@@ -1,0 +1,64 @@
+/* Default (Mobile) styles go here */
+
+/* Tablets (portrait, small tablets) */
+@media (min-width: 576px) {
+  /* styles for ≥576px */
+}
+
+/* Tablets (landscape, medium devices) */
+@media (min-width: 768px) {
+  /* styles for ≥768px */
+  .banner-flex{
+    display: flex;
+    align-items: center;
+    column-gap: 0px;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+  .banner_title{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .banner_title h1{
+    font-size: 160px;
+    line-height: .85;
+  }
+  .banner_title h2{
+    font-size: 60px;
+    line-height: .8;
+    margin-bottom: 25px;
+  }
+  /* timer */
+    .timer{
+      margin-top: 80px;
+    }
+    .numero {
+      font-size: 4rem;
+      border-radius: 8px;
+      width: 90px;
+      height: 120px;
+    }
+    .etiqueta {
+      margin-top: 10px;
+      font-size: 1.4rem;
+      color: rgb(75, 77, 162);
+    }
+  
+
+
+}
+
+/* Laptops / Small desktops */
+@media (min-width: 992px) {
+  /* styles for ≥992px */
+}
+
+/* Large desktops / wide screens */
+@media (min-width: 1200px) {
+  /* styles for ≥1200px */
+}
+
+/* Extra large screens */
+@media (min-width: 1400px) {
+  /* styles for ≥1400px */
+}

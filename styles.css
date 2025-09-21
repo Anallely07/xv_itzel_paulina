@@ -1,0 +1,237 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+
+main{
+	font-family: "Forum", serif;
+	font-weight: 400;
+	font-style: normal;
+	padding-bottom: 80px;
+}
+.bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('./img/fondo.jpg') no-repeat center center;
+      background-size: cover;
+      z-index: -1; /* behind everything */
+    }
+
+.rouge-regular{
+	font-family: "Rouge Script", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+.birthstone-regular{
+	font-family: "Birthstone", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn{
+	display: inline-block;
+	border-radius: 50px;
+	padding: 15px 40px;
+	text-decoration: none;
+}
+
+
+/* S1. Banner*/
+	.banner{
+		display: flex;
+		flex-direction: column;
+		justify-content:top;
+		padding: 0 20px;
+		position: relative;
+	}
+	.banner-img{
+		display: flex;
+		flex-direction: column;
+		/*border: solid;*/
+		margin: 0 auto;
+		width: 90%;
+	}
+	.luna{
+		width: 30%;
+		max-width: 150px;
+		align-self: flex-end;
+		position: relative;
+		top: 15px;
+	}
+	.silueta{
+		width: 70%;
+		position: relative;
+		max-width: 300px;
+		z-index: 100;
+	}
+	.banner_title{
+		color: #fff;
+		text-align: center;
+		margin-top: 40px;
+	}
+	.banner_title h1{
+		font-size: 20vw;
+		text-shadow:
+		    0 0 3px #fff,
+		    0 0 6px #fff,
+		    0 0 12px #fff;
+
+	}
+	.banner_title h2{
+		font-size: 60px;
+		/*border: solid;*/
+		line-height: .8;
+		text-shadow:
+		    0 0 3px #fff,
+		    0 0 6px #fff,
+		    0 0 12px #fff;
+	}
+	
+/* Estrellas */
+	.estrellas{
+		position: fixed;
+		width: 140px;
+		animation: float 3s ease-in-out infinite;
+	}
+	.es1{
+		top: 0;
+		left: 0;
+	}
+	.es2{
+		top: 2%;
+		left: 35%;
+	}
+	.es3{
+		top: 0;
+		left: 70%;
+	}
+	.es4{
+		top: 20%;
+		left: 0%;
+	}
+	.es5{
+		top: 25%;
+		left: 40%;
+	}
+	.es6{
+		top: 20%;
+		left: 75%;
+	}
+	@keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+
+/* Timer */
+	.timer{
+		padding: 60px 0 40px;
+	}
+	.contador {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .bloque {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .numero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(75, 77, 162, .2);
+      /*color: rgb(75, 77, 162);*/
+      color: #fff;
+      font-weight: bold;
+      font-size: 2.3rem;
+      border-radius: 8px;
+      width: 70px;
+      height: 90px;
+    }
+    .etiqueta {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      /*color: rgb(75, 77, 162);*/
+      color: #fff;
+
+    }
+
+/* Invitación */
+	.invitacion{
+		margin-top: 60px;
+		padding: 60px 20px;
+		text-align: center;
+		font-size: 28px;
+		background-color: rgba(111, 98, 180, .6);
+		color: #fff;
+	}
+	.fecha{
+		padding: 60px 0 60px;
+		display: grid;
+		grid-template-columns: 40% 20% 40%;
+		align-items: center;
+	}
+	.fecha p{
+		border: solid #fff;
+		padding: 10px;
+		border-left: none;
+		border-right: none;
+	}
+	.hora-lugar p:first-child{
+		margin-bottom: 20px;
+	}
+	.fecha span{
+		font-size: 60px;
+	}
+	.hora-lugar{
+	}
+
+	.btn-morado{
+		background-color: #484D9F;
+		color: #fff;
+		/*background-color: #DCCCE9;*/
+	}
+	.como-llegar{
+		margin-top: 40px;
+	}
+
+/* Confirmar */
+	.asistencia{
+		font-size: 28px;
+		text-align: center;
+		padding: 60px 60px;
+		color: #fff;
+	}
+	.confirmar{
+		margin-top: 40px;
+	}
+
+
+.te-esperamos{
+	color: #fff;
+	text-align: center;
+	font-size: 14vw;
+}
