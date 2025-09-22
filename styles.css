@@ -218,12 +218,27 @@ main{
 		margin-top: 40px;
 	}
 
+/* Padres */
+
+	.padres{
+		padding: 90px 0 130px;
+		color: #fff;
+		font-size: 28px;
+		text-align: center;
+	}
+	.padres h3{
+		font-size: 42px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	
 /* Confirmar */
 	.asistencia{
 		font-size: 28px;
 		text-align: center;
 		padding: 60px 60px;
 		color: #fff;
+		background-color: rgba(111, 98, 180, .6);
 	}
 	.confirmar{
 		margin-top: 40px;
@@ -234,4 +249,11 @@ main{
 	color: #fff;
 	text-align: center;
 	font-size: 14vw;
+	padding:  60px 0;
+}
+.contacto{
+	padding: 20px 40px;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
 }
